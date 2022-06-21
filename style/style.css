@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url("fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("fonts/Roboto-Thin.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Roboto-Regular", "Arial", "sans-serif";
+    color: #000000;
+    background-color: #155c1a;
+    /**/
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+       not supported by any browser */
+}
